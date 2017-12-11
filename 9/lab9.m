@@ -1,14 +1,14 @@
 %load data
 rawData = readtable('wdbc.dat');
 rawDataSize = size(rawData,1);
-inputs = zeros(rawDataSize, 10);
-targets = zeros(rawDataSize, 1);
+inputs = zeros(10, rawDataSize);
+targets = zeros(1, rawDataSize);
 
 for i=1:rawDataSize
     if strcmp(rawData{i,2}, 'M')
         targets(i) = 1;
     end
-    inputs(i, 1:10) = rawData{i, 3:12};
+    inputs(1:10, i) = rawData{i, 3:12};
 end
 
 %params
@@ -16,8 +16,7 @@ hiddenLayerSize = 6;
 epochs = 7;
 vPerfs = zeros(hiddenLayerSize, epochs+1);
 
-% main loop
-
+net = fitnet(hiddenLayerSize);
 %net.trainFnc = 'trainlm';
 %trainlm
 %trainbfg 
