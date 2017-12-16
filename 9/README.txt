@@ -6,7 +6,7 @@ Metodami:
 1) MLP
 2) Najblizszych sasiadow (KNN)
 fitcknn
-3) SUM (kernel)
+3) SVM (kernel)
 fitscfm
 
 SPrawozdanie z trzech metod

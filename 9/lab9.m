@@ -12,23 +12,26 @@ for i=1:rawDataSize
 end
 
 %params
-hiddenLayerSize = 6;
-epochs = 7;
-vPerfs = zeros(hiddenLayerSize, epochs+1);
+epochs = 45;
+series = 100;
 
-net = fitnet(hiddenLayerSize);
-%net.trainFnc = 'trainlm';
-%trainlm
-%trainbfg 
-%trainscg
-net.divideFcn = 'dividerand';
-net.divideParam.trainRatio = 60/100;
-net.divideParam.valRatio = 20/100;
-net.divideParam.testRatio = 20/100;
-net.trainParam.min_grad = 0;
-net.trainParam.max_fail = epochs;
-net.trainParam.epochs = epochs; 
-[net, tr] = train(net, inputs, targets);
-tr.vperf
+outputs8 = networktrain(8, epochs, series, inputs, targets);
+outputs7 = networktrain(7, epochs, series, inputs, targets);
+outputs6 = networktrain(6, epochs, series, inputs, targets);
+outputs5 = networktrain(5, epochs, series, inputs, targets);
+
+dlmwrite('MLP450bfg5hnn.dat',outputs5)
+dlmwrite('MLP450bfg6hnn.dat',outputs6)
+dlmwrite('MLP450bfg7hnn.dat',outputs7)
+dlmwrite('MLP450bfg8hnn.dat',outputs8)
+
+plot(3:epochs+1, outputs8(3:epochs+1), 'r',3:epochs+1, outputs7(3:epochs+1), 'b', 3:epochs+1, outputs6(3:epochs+1), 'g',3:epochs+1, outputs5(3:epochs+1), 'y')
+title('Vperf for different sizes of hiden layer.')
+legend('hnn = 8','hnn = 7','hnn = 6','hnn = 5')
+xlabel('epoch')
+ylabel('Vperf')
+
+
+
 
 

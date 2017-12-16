@@ -1,0 +1,1104 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.11)  12 DEC 2017 12:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**classicthesis.sty
+(./classicthesis.sty
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 17 language(s) loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `classicthesis'.
+
+Package: classicthesis 2017/10/13 v4.4 Typographic style for a classic-looking 
+thesis
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexrelease.sty
+Package: latexrelease 2015/06/22 v1.0f LaTeX release emulation and tests
+
+
+Package latexrelease Warning: Current format date selected, no patches applied.
+.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+! Undefined control sequence.
+<argument> \ct 
+               @paper
+l.85 \ifthenelse{\equal{\ct@paper}{a4}}
+                                       %
+? 
+! Undefined control sequence.
+<argument> \ct 
+               @paper
+l.88 \ifthenelse{\equal{\ct@paper}{a5}}
+                                       %
+? 
+! Undefined control sequence.
+<argument> \ct 
+               @paper
+l.91 \ifthenelse{\equal{\ct@paper}{letter}}
+                                           %
+? 
+! You can't use `\spacefactor' in vertical mode.
+\@->\spacefactor 
+                 \@m {}
+l.99 \@
+       ifpackageloaded{subfig}%
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.99 \@
+       ifpackageloaded{subfig}%
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 \@
+       ifpackageloaded{subfig}%
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 99.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 99.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.102 
+      
+? 
+Missing character: There is no è in font cmex10!
+
+Overfull \hbox (122.28282pt too wide) in paragraph at lines 99--102
+[]$[]\OML/cmm/m/it/10 ifpackageloaded[][][]$ 
+ []
+
+
+Package classicthesis Warning: Chapter sectioning command not present in this d
+ocument class. Deactivating options floatperchapter, linedheaders, manychapters
+, listsseparated, eulerchapternumbers and parts.
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 208.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks15
+\MT@count=\count79
+LaTeX Font Info:    Try loading font information for OT1+pplj on input line 521
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplj.fd
+File: ot1pplj.fd 2004/09/06 font definitions for OT1/pplj.
+)
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen102
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count80
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip41
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64    }
+         
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.64    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `normalsize'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `large'
+(microtype)                in font set `basicmath' on input line 64.
+
+! Extra }, or forgotten \endgroup.
+\MT@clist@function ...,footnotesize,small,large}}}
+                                                  
+l.64    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `ex'
+(microtype)                in font set `basicmath' on input line 64.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.64    }
+         
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64    }
+         
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.64    }
+         
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.64    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `sp'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `kn'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `tr'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71    }
+         
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.71    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `normalsize'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `large'
+(microtype)                in font set `basictext' on input line 71.
+
+! Extra }, or forgotten \endgroup.
+\MT@clist@function ...,footnotesize,small,large}}}
+                                                  
+l.71    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `ex'
+(microtype)                in font set `basictext' on input line 71.
+
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.71    }
+         
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.71    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `sp'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `kn'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `tr'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+! Extra }, or forgotten \endgroup.
+\MT@clist@function ...normalfont}{font=*/*/*/*/*}}
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `ex////'. Using `pplj' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `ex////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `ex////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `ex////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `sp////'. Using `pplj' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `sp////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `sp////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `sp////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `kn////'. Using `pplj' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `kn////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `kn////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `kn////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `tr////'. Using `pplj' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `tr////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `tr////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `tr////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+! Package microtype Error: The expansion set `basictext' is not declared.
+(microtype)                Cannot make it the default set. Using set
+(microtype)                `all' instead.
+
+See the microtype package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 ...MicrotypeSetDefault[expansion] {basictext}
+                                                  
+? 
+
+! Package microtype Error: The spacing set `basictext' is not declared.
+(microtype)                Cannot make it the default set. Using set
+(microtype)                `all' instead.
+
+See the microtype package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...MicrotypeSetDefault[spacing]   {basictext}
+                                                  
+? 
+)
+! Missing \endcsname inserted.
+<to be read again> 
+                   \@classoptionslist 
+l.2147 \MT@ProcessOptionsWithKV{MT}
+                                   
+? 
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.220 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.220 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.220 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.220 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.220 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.220 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.220 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.220 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.220 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.220 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.220 
+      
+? 
+
+Overfull \hbox (21.0pt too wide) in paragraph at lines 64--220
+[]$[]$ 
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2015/10/03v3.19aKOMA-Scriptpackage(typearea)
+
+Packagetypearea,2015/10/03v3.19aKOMA-Scriptpackage(typearea)
+                  Copyright(C)FrankNeukam,1992-1994
+                  Copyright(C)MarkusKohm,1994-
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2015/10/03v3.19aKOMA-Scriptpackage(KOMA-Script-dependentbasic
+sandkeyvalusage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2015/10/03v3.19aKOMA-Scriptpackage(KOMA-Script-independentbasi
+csandkeyvalusage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2015/10/03v3.19aKOMA-Scriptpackage(loadingfiles)
+
+Packagescrlfile,2015/10/03v3.19aKOMA-Scriptpackage(loadingfiles)
+                  Copyright(C)MarkusKohm
+
+)))
+\ta@bcor=\skip42
+\ta@div=\count81
+\ta@hblk=\skip43
+\ta@vblk=\skip44
+\ta@temp=\skip45
+
+
+Package typearea Warning: \typearea usedatgrouplevel5.
+(typearea)                Using\typearea insideanygroup,e.g.
+(typearea)                environments,mathmode,boxes,etc.mayresultin
+(typearea)                manytypesettingproblems.
+(typearea)                Youshouldmovethecommand\typearea
+(typearea)                outsideallgroups on input line 1509.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1509 \typearea[current]{current}
+                                  
+? 
+\footheight=\skip46
+
+Package typearea Warning: \@ptsize notdefined!
+(typearea)                Fontsizeis10pt.
+(typearea)                Defining\@ptsize to0.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1509 \typearea[current]{current}
+                                  
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1509 \typearea[current]{current}
+                                  
+? 
+Package typearea Info: Thesearethevaluesdescribingthelayout:
+(typearea)             DIV  = 8
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIVdeparture   = 0%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 472.00134pt
+(typearea)              \topmargin      = 33.36087pt
+(typearea)              \headheight     = 13.12503pt
+(typearea)              \headsep        = 15.75005pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 36.75009pt
+(typearea)              \baselineskip   = 10.50003pt
+(typearea)              on input line 1509.
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14v1.61803publicationqualitytables
+\heavyrulewidth=\dimen103
+\lightrulewidth=\dimen104
+\cmidrulewidth=\dimen105
+\belowrulesep=\dimen106
+\belowbottomsep=\dimen107
+\aboverulesep=\dimen108
+\abovetopsep=\dimen109
+\cmidrulesep=\dimen110
+\cmidrulekern=\dimen111
+\defaultaddspace=\dimen112
+\@cmidla=\count82
+\@cmidlb=\count83
+\@aboverulesep=\dimen113
+\@belowrulesep=\dimen114
+\@thisruleclass=\count84
+\@lastruleclass=\count85
+\@thisrulewidth=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07v0.07Textonlyupper/lowercasechanging(DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/soulutf8.sty
+Package: soulutf8 2007/09/09 v1.0 Permit use of UTF-8 characters in soul (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks16
+\SOUL@lasttoken=\toks17
+\SOUL@cmds=\toks18
+\SOUL@buffer=\toks19
+\SOUL@token=\toks20
+\SOUL@spaceskip=\skip47
+\SOUL@ttwidth=\dimen116
+\SOUL@uldp=\dimen117
+\SOUL@ulht=\dimen118
+))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2015/10/03v3.19aKOMA-Scriptpackage(enduserinterfacefo
+rscrlayer)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2015/10/03v3.19aKOMA-Scriptpackage(defininglayersandpagestyle
+s)
+Package scrlayer Info: Usingalreadydefined\footheight
+(scrlayer)             hoping,thatthisisalengthand
+(scrlayer)             notonlyamacro on input line 107.
+Package scrlayer Info: patchingLaTeXkernelmacro\pagestyle on input line 1975.
+))
+Package scrlayer-scrpage Info: auto-selectionof`pagestyleset=standard'.
+
+1:subsection
+
+! Package scrlayer Error: numberingdepthof`subsection'unknown.
+
+See the scrlayer package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.373     \clearpairofpagestyles
+                                
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/15v2.10.1Sectioningtitles
+\ttl@box=\box26
+\beforetitleunit=\skip48
+\aftertitleunit=\skip49
+\ttl@plus=\dimen119
+\ttl@minus=\dimen120
+\ttl@toksa=\toks21
+\titlewidth=\dimen121
+\titlewidthlast=\dimen122
+\titlewidthfirst=\dimen123
+
+! Undefined control sequence.
+<argument> \section 
+                    
+l.1286 \ttl@extract\section
+                           
+? 
+
+Package titlesec Warning: Nonstandardsectioningcommanddetected
+(titlesec)                Usingdefaultspacingandnoformat.
+
+! Undefined control sequence.
+<argument> \subsection 
+                       
+l.1287 \ttl@extract\subsection
+                              
+? 
+
+Package titlesec Warning: Nonstandardsectioningcommanddetected
+(titlesec)                Usingdefaultspacingandnoformat.
+
+! Undefined control sequence.
+<argument> \subsubsection 
+                          
+l.1288 \ttl@extract\subsubsection
+                                 
+? 
+
+Package titlesec Warning: Nonstandardsectioningcommanddetected
+(titlesec)                Usingdefaultspacingandnoformat.
+
+! Undefined control sequence.
+<argument> \paragraph 
+                      
+l.1289 \ttl@extract\paragraph
+                             
+? 
+
+Package titlesec Warning: Nonstandardsectioningcommanddetected
+(titlesec)                Usingdefaultspacingandnoformat.
+
+! Undefined control sequence.
+<argument> \subparagraph 
+                         
+l.1290 \ttl@extract\subparagraph
+                                
+? 
+
+Package titlesec Warning: Nonstandardsectioningcommanddetected
+(titlesec)                Usingdefaultspacingandnoformat.
+
+)
+
+! LaTeX Error: \descriptionlabel undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.436     \renewcommand{\descriptionlabel}
+                                          [1]{\hspace*{\labelsep}\spacedlows...
+
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02v2.3fparameterisedToC,etc.,typesetting
+Package tocloft Info: Thedocumenthassectiondivisions on input line 44.
+\cftparskip=\skip50
+\cftbeforetoctitleskip=\skip51
+\cftaftertoctitleskip=\skip52
+
+
+! LaTeX Error: \l@section undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 \renewcommand*{\l@section}
+                                [2]{%
+? 
+\cftbeforesecskip=\skip53
+\cftsecindent=\skip54
+\cftsecnumwidth=\skip55
+
+! LaTeX Error: \l@subsection undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349 \renewcommand*{\l@subsection}
+                                   [2]{%
+? 
+\cftbeforesubsecskip=\skip56
+\cftsubsecindent=\skip57
+\cftsubsecnumwidth=\skip58
+
+! LaTeX Error: \l@subsubsection undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.389 \renewcommand*{\l@subsubsection}
+                                      [2]{%
+? 
+\cftbeforesubsubsecskip=\skip59
+\cftsubsubsecindent=\skip60
+\cftsubsubsecnumwidth=\skip61
+
+! LaTeX Error: \l@paragraph undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.429 \renewcommand*{\l@paragraph}
+                                  [2]{%
+? 
+\cftbeforeparaskip=\skip62
+\cftparaindent=\skip63
+\cftparanumwidth=\skip64
+
+! LaTeX Error: \l@subparagraph undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.469 \renewcommand*{\l@subparagraph}
+                                     [2]{%
+? 
+\cftbeforesubparaskip=\skip65
+\cftsubparaindent=\skip66
+\cftsubparanumwidth=\skip67
+\cftbeforeloftitleskip=\skip68
+\cftafterloftitleskip=\skip69
+
+! LaTeX Error: \l@figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.570 \renewcommand*{\l@figure}
+                               [2]{%
+? 
+\cftbeforefigskip=\skip70
+\cftfigindent=\skip71
+\cftfignumwidth=\skip72
+\c@lofdepth=\count86
+\c@lotdepth=\count87
+\cftbeforelottitleskip=\skip73
+\cftafterlottitleskip=\skip74
+
+! LaTeX Error: \l@table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.672 \renewcommand*{\l@table}
+                              [2]{%
+? 
+\cftbeforetabskip=\skip75
+\cfttabindent=\skip76
+\cfttabnumwidth=\skip77
+)
+\newnumberwidth=\skip78
+
+
+! LaTeX Error: \@pnumwidth undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.453 \cftsetpnumwidth{\newnumberwidth}
+                                       
+? 
+\beforebibskip=\skip79
+\newchnumberwidth=\skip80
+\figurelabelwidth=\skip81
+! Undefined control sequence.
+\cftfigpresnum ->\figurename 
+                             ~
+l.552 ...th{\figurelabelwidth}{\cftfigpresnum~999}
+                                                  
+? 
+\tablelabelwidth=\skip82
+! Undefined control sequence.
+\cfttabpresnum ->\tablename 
+                            ~
+l.565 ...dth{\tablelabelwidth}{\cfttabpresnum~999}
+                                                  
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06v5.5bamiscellanyoffootnotefacilities
+\FN@temptoken=\toks22
+\footnotemargin=\dimen124
+\c@pp@next@reset=\count88
+Package footmisc Info: Declaringsymbolstylebringhurst on input line 855.
+Package footmisc Info: Declaringsymbolstylechicago on input line 863.
+Package footmisc Info: Declaringsymbolstylewiley on input line 872.
+Package footmisc Info: Declaringsymbolstylelamport-robust on input line 883.
+Package footmisc Info: Declaringsymbolstylelamport* on input line 903.
+Package footmisc Info: Declaringsymbolstylelamport*-robust on input line 924.
+)
+
+Package classicthesis Warning: Usingpackage"footmisc"withoption"flushmargin"for
+footnotesetup(not100\%thesameaswithKOMA).
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrtime.sty
+Package: scrtime 2015/10/03v3.19aKOMA-Scriptpackage(timeofLaTeXrun)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty)
+
+! LaTeX Error: \thetable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.689 }
+       
+? 
+
+! LaTeX Error: \thefigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.689 }
+       
+? 
+)
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+
+*\end
+! TeX capacity exceeded, sorry [input stack size=5000].
+\end #1->\csname end#1
+                      \endcsname \@checkend {#1}\expandafter \endgroup \if@e...
+<*> \end
+        
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
+Here is how much of TeX's memory you used:
+ 5676 strings out of 494404
+ 116399 string characters out of 6169696
+ 241389 words of memory out of 5000000
+ 9082 multiletter control sequences out of 15000+600000
+ 6214 words of font info for 17 fonts, out of 8000000 for 9000
+ 306 hyphenation exceptions out of 8191
+ 5000i,6n,5000p,267b,3115s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
