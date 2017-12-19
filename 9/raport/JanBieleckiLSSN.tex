@@ -206,7 +206,47 @@ The minimum prediction error we got by using linear kernel function:
 \label{fig:svm2} 
 \end{figure}
 
-Figure~\vref{fig:svm2} illustrates the SVM method for reduced state space (space created using principal component analysis).
+Figure~\vref{fig:svm2} illustrates the SVM method for reduced state space (space created using principal component analysis) to two dimensions.
+
+Then we examined SVM method using PCA algoritm for normalize data (Formule~\vref{eq:norm}). Figure~\vref{fig:svmnorm2} illustrates the SVM method using normalized data for reduced state space to two dimensions.
+
+\begin{equation} 
+ data(i,j) = \frac{rawData(i,j) - min(rawData(:,j)}{max(rawData(:,j)) - min(rawData(:,j)};
+\label{eq:norm}
+\end{equation}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ c | c | c | c | c | c | c | c | c | c | c}
+    PCA components  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\ \hline
+    $ \% $ of the variance & 61 & 83 & 90 & 95 & 97 & 99 & 99 & 100 & 100 & 100 \\
+  	\end{tabular}
+  	\caption{Percent of the data variance depending on the number of principal components.}
+  	\label{tab2}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ c | c | c | c | c }
+    PCA components/Kernel function & linear & gaussian & rbf & polynomial \\ \hline
+    2 & 0.0932 & 0.2373 & 0.2373 & 0.2542 \\ \hline
+    3 & \cellcolor{amber!25}0.0424 & 0.1186 & 0.1186 & 0.3559 \\ \hline
+    4 & \cellcolor{amber!25}0.0424 & 0.1102 & 0.1102 & 0.2542 \\ \hline
+    5 & 0.2881 & 0.1186 & 0.1186 & 0.1695 \\ \hline
+    6 & 0.1186 & 0.1441 & 0.1441 & 0.1780 \\ \hline
+    7 & 0.1864 & 0.1186 & 0.1186 & 0.1780 \\
+  	\end{tabular}
+  	\caption{Prediction error for SVM method for different parameters.}
+  	\label{tab2}
+\end{table}
+
+\begin{figure}[H]
+\centering 
+\makebox[\textwidth][c]{\includegraphics[width=1.3\columnwidth]{SVMNorm2}}%
+\caption[An example of a floating figure]{SVM model for normalized data and reduced state space.} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
+\label{fig:svmnorm2} 
+\end{figure}
+
 
 %----------------------------------------------------------------------------------------
 %	DISCUSSION
@@ -220,13 +260,13 @@ Table~\vref{tab3} summarizing the best results of the tested classifiers:
 	\centering
 	\begin{tabular}{ c | c | c | c  }
     classifier  & MLP & KNN & SVM \\ \hline
-    $ error_{MIN} $ & \cellcolor{amber!25}0.0439 & 0.0471 & 0.1017 \\
+    $ error_{MIN} $ & 0.0439 & 0.0471 & \cellcolor{amber!25}0.0424 \\
   	\end{tabular}
   	\caption{Minimum prediction errors of the tested classifiers.}
   	\label{tab3}
 \end{table}
 
-For our data the best classification method is MLP using Scaled conjugate gradient backpropagation as training function. KNN method got the same results as MLP using BFGS quasi-Newton backpropagation. The worst of the tested classificators (for our specified data) turned out to be Support Vector Machine.
+For our data the best classification method is SVM with normalized data using PCA (model with use of 3 or 4 principal components and linear kernel function). The second best MLP using Scaled conjugate gradient backpropagation as training function. The worst of the tested classificators (for our specified data) is KNN method - this classificator got the same results as MLP using BFGS quasi-Newton backpropagation.
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

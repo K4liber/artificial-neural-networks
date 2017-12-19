@@ -3,4 +3,4 @@
 \contentsline {subsection}{\numberline {2.1}{Multilayer perceptron}}{1}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}{K-Nearest Neighbor}}{3}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}{Support vector machine}}{4}{subsection.2.3}
-\contentsline {section}{\numberline {3}{Discussion}}{5}{section.3}
+\contentsline {section}{\numberline {3}{Discussion}}{6}{section.3}

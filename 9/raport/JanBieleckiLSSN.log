@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.11)  16 DEC 2017 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.11)  19 DEC 2017 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,6 +990,12 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 
 LaTeX Warning: Label `eq:refname2' multiply defined.
 
+
+LaTeX Warning: Label `tab2' multiply defined.
+
+
+LaTeX Warning: Label `tab2' multiply defined.
+
 )
 \openout1 = `JanBieleckiLSSN.aux'.
 
@@ -1162,12 +1168,12 @@ File: Figures/MLPbfg450.jpg Graphic file (type jpg)
 Package pdftex.def Info: Figures/MLPbfg450.jpg used on input line 126.
 (pdftex.def)             Requested size: 336.0pt x 252.00133pt.
  [2 <./Figures/MLP.jpg> <./Figures/MLPscg450.jpg>]
-<Figures/knn.jpg, id=65, 562.1pt x 421.575pt>
+<Figures/knn.jpg, id=64, 562.1pt x 421.575pt>
 File: Figures/knn.jpg Graphic file (type jpg)
  <use Figures/knn.jpg>
 Package pdftex.def Info: Figures/knn.jpg used on input line 162.
 (pdftex.def)             Requested size: 336.0pt x 252.00133pt.
- [3 <./Figures/MLPbfg450.jpg>] <Figures/SVM2.jpg, id=76, 1313.90875pt x 691.583
+ [3 <./Figures/MLPbfg450.jpg>] <Figures/SVM2.jpg, id=75, 1313.90875pt x 691.583
 76pt>
 File: Figures/SVM2.jpg Graphic file (type jpg)
 
@@ -1175,29 +1181,40 @@ File: Figures/SVM2.jpg Graphic file (type jpg)
 Package pdftex.def Info: Figures/SVM2.jpg used on input line 204.
 (pdftex.def)             Requested size: 672.0pt x 353.71611pt.
  [4 <./Figures/knn.jpg>]
+Overfull \hbox (23.94978pt too wide) in paragraph at lines 230--239
+ [][] 
+ []
+
+[5 <./Figures/SVM2.jpg>] <Figures/SVMNorm2.jpg, id=101, 562.1pt x 421.575pt>
+File: Figures/SVMNorm2.jpg Graphic file (type jpg)
+
+<use Figures/SVMNorm2.jpg>
+Package pdftex.def Info: Figures/SVMNorm2.jpg used on input line 245.
+(pdftex.def)             Requested size: 436.80103pt x 327.59853pt.
+
 No file JanBieleckiLSSN.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
-[5 <./Figures/SVM2.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+[6 <./Figures/SVMNorm2.jpg>] [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
  (./JanBieleckiLSSN.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
 Package rerunfilecheck Info: File `JanBieleckiLSSN.out' has not changed.
 (rerunfilecheck)             Checksum: FFEC196AF772FE1D3109293303E53B00;360.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 14835 strings out of 494403
- 258679 string characters out of 6169670
- 549834 words of memory out of 5000000
- 17939 multiletter control sequences out of 15000+600000
+ 14852 strings out of 494403
+ 258913 string characters out of 6169670
+ 550834 words of memory out of 5000000
+ 17949 multiletter control sequences out of 15000+600000
  73393 words of font info for 117 fonts, out of 8000000 for 9000
  308 hyphenation exceptions out of 8191
- 60i,22n,86p,375b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,22n,86p,437b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texm
@@ -1205,10 +1222,10 @@ f-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on JanBieleckiLSSN.pdf (5 pages, 202175 bytes).
+Output written on JanBieleckiLSSN.pdf (7 pages, 227524 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 16970 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 16975 words of extra memory for PDF output out of 17280 (max. 10000000)
 

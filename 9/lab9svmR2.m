@@ -4,6 +4,12 @@ rawDataSize = size(rawData,1);
 inputs = zeros(rawDataSize, 10);
 targets = zeros(rawDataSize, 1);
 
+%normalize data
+for i=1:10
+    rawData{:, 2+i} = (rawData{:, 2+i} - min(rawData{:, 2+i})) ...
+        / ( max(rawData{:, 2+i}) - min(rawData{:, 2+i}) );
+end
+
 for i=1:rawDataSize
     if strcmp(rawData{i,2}, 'M')
         targets(i) = 1;
@@ -16,7 +22,7 @@ Y = targets(1:450);
 
 % Reduce data dimension
 [pc,score,latent,tsquare] = princomp(inputs);
-pc,latent
+pc,latent;
 cumsum(latent)./sum(latent)
 
 X1s = [];
@@ -45,10 +51,9 @@ cl = fitcsvm(score(1:450,1:2),Y,'KernelFunction','linear',...
     'BoxConstraint',Inf,'ClassNames',[0,1], 'Standardize',true);
 
 [label,s,cost] = predict(cl,score(451:568,1:2));
-cl.Beta(1)
-cl.Beta(2)
-xLinear = 1:5;
-yLinear = cl.Beta(2)*xLinear + cl.Beta(1);
+
+xLinear = -1.0:0.1:2.0;
+yLinear = cl.Beta(1)*xLinear + cl.Bias;
 
 for i=451:rawDataSize
     if label(i-450) == 1
@@ -61,13 +66,19 @@ for i=451:rawDataSize
 end
 
 correctness = 0.0;
+correct = 0;
+missed = 0;
 for i=451:rawDataSize
     if label(i-450) == targets(i)
-        correctness = correctness + 1.0/(rawDataSize+1-451);
+        correctness = correctness + 1.0/(rawDataSize-450.0);
+        correct = correct + 1;
+    else
+        missed = missed + 1;
     end
 end
 error = 1.0-correctness
-
+missed
+correct
 scatter(X1s,Y1s,15,'MarkerEdgeColor',[.5 .5 .5],...
               'MarkerFaceColor',[0 .5 .5],...
               'LineWidth',0.5);
