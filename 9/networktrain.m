@@ -1,5 +1,6 @@
-function outputs = networktrain(hiddenLayerSize, epochs, series, inputs, targets)
+function [outputs, MINIMUM, middleMin, middleStd] = networktrain(hiddenLayerSize, epochs, series, inputs, targets)
     outputs = zeros(1, epochs+1);
+    MINIMUM = 1;
     for i=1:series
         net = fitnet(hiddenLayerSize);
         net.trainFcn = 'trainbfg';
@@ -15,6 +16,11 @@ function outputs = networktrain(hiddenLayerSize, epochs, series, inputs, targets
         net.trainParam.epochs = epochs; 
         [~, tr] = train(net, inputs, targets);
         outputs = outputs + tr.vperf;
+        if MINIMUM > min(tr.vperf)
+            MINIMUM = min(tr.vperf);
+        end
+        i
     end
     outputs = outputs/series;
+    MINIMUM;
 end

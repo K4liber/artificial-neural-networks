@@ -147,6 +147,25 @@ The results are presented in Figure~\vref{fig:mlpln}, \vref{fig:mlpscg450} and \
 
 Table~\vref{tab1} shows best training results for each training function. % The \vref command specifies the location of the reference
 
+Next, we use 3 and 2 hidden layers with for different sizes and different network's train functions
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{ | c | c | c | c | c | c | }
+    \hline
+    hidden layers & kernel function & series & epochs & $ error_{average,min} $ & $ error_{min} $ \\ \hline
+    [8,6,6] & bfg & 100 & 60 & 0.0437 & 0.0031 \\ \hline
+    [10,8,6] & bfg & 100 & 60 & 0.0426 & 0.0025 \\ \hline
+    [10,8,6] & lm & 100 & 60 & 0.0385 & 0.000093 \\ \hline
+    [8,7,6] & lm & 100 & 60 & 0.0419 & \cellcolor{amber!25}0.000091 \\ \hline
+    [10,8,6] & scg & 100 & 200 & 0.0420 & 0.0010 \\ \hline
+    [8,7,6] & scg & 100 & 200 & 0.0404 & 0.00089 \\ \hline
+    [9,7] & lm & 100 & 20 & \cellcolor{amber!25}0.0353 & 0.000071 \\ \hline
+  	\end{tabular}
+  	\caption{Minimum prediction errors for MLP method.}
+  	\label{tab1}
+\end{table}
+
 \subsection{K-Nearest Neighbor}
 
 Description of the experiments for KNN:
@@ -260,13 +279,13 @@ Table~\vref{tab3} summarizing the best results of the tested classifiers:
 	\centering
 	\begin{tabular}{ c | c | c | c  }
     classifier  & MLP & KNN & SVM \\ \hline
-    $ error_{MIN} $ & 0.0439 & 0.0471 & \cellcolor{amber!25}0.0424 \\
+    $ error_{MIN} $ & \cellcolor{amber!25}0.0353 & 0.0471 & 0.0424 \\
   	\end{tabular}
   	\caption{Minimum prediction errors of the tested classifiers.}
   	\label{tab3}
 \end{table}
 
-For our data the best classification method is SVM with normalized data using PCA (model with use of 3 or 4 principal components and linear kernel function). The second best MLP using Scaled conjugate gradient backpropagation as training function. The worst of the tested classificators (for our specified data) is KNN method - this classificator got the same results as MLP using BFGS quasi-Newton backpropagation.
+For our data the best classification method is  MLP using Levenberg-Marquardt backpropagation as training function. The second best SVM with normalized data using PCA (model with use of 3 or 4 principal components and linear kernel function). The worst of the tested classificators (for our specified data) is KNN method - this classificator got the same results as MLP using BFGS quasi-Newton backpropagation. Moreover, results from the MLP method are averaged and minimum error managed to get from the best configuration is 0.000091.
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

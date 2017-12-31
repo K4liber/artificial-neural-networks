@@ -12,13 +12,13 @@ for i=1:rawDataSize
 end
 
 %params
-epochs = 45;
+epochs = 60;
 series = 100;
 
-outputs8 = networktrain(8, epochs, series, inputs, targets);
-outputs7 = networktrain(7, epochs, series, inputs, targets);
-outputs6 = networktrain(6, epochs, series, inputs, targets);
-outputs5 = networktrain(5, epochs, series, inputs, targets);
+outputs8 = networktrain([8,5,4], epochs, series, inputs, targets);
+outputs7 = networktrain([7,5,4], epochs, series, inputs, targets);
+outputs6 = networktrain([6,5,4], epochs, series, inputs, targets);
+outputs5 = networktrain([5,5,4], epochs, series, inputs, targets);
 
 dlmwrite('MLP450bfg5hnn.dat',outputs5)
 dlmwrite('MLP450bfg6hnn.dat',outputs6)
@@ -31,7 +31,9 @@ legend('hnn = 8','hnn = 7','hnn = 6','hnn = 5')
 xlabel('epoch')
 ylabel('Vperf')
 
-
-
+min(outputs8)
+min(outputs7)
+min(outputs6)
+min(outputs5)
 
 
