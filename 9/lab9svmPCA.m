@@ -4,7 +4,7 @@ rawDataSize = size(rawData,1);
 inputs = zeros(rawDataSize, 10);
 targets = zeros(rawDataSize, 1);
 
-PCA = 7;
+PCA = 3;
 
 %normalize data
 for i=1:10
@@ -26,27 +26,25 @@ Y = targets(1:450);
 [pc,score,latent,tsquare] = princomp(inputs);
 pc,latent;
 cumsum(latent)./sum(latent)
-          
+
 %Train the SVM Classifier
 % 'linear' (default) | 'gaussian' | 'rbf' | 'polynomial' | function name
 cl = fitcsvm(score(1:450,1:PCA),Y,'KernelFunction','linear',...
     'BoxConstraint',Inf,'ClassNames',[0,1], 'Standardize',true);
 
-[label,s,cost] = predict(cl,score(451:568,1:PCA));
+[label,s,cost] = predict(cl,score(451:rawDataSize,1:PCA));
 
 correctness = 0.0;
 correct = 0;
 missed = 0;
 for i=451:rawDataSize
     if label(i-450) == targets(i)
-        correctness = correctness + 1.0/(rawDataSize-450.0);
+        correctness = correctness + 1.0/(rawDataSize-451.0);
         correct = correct + 1;
     else
         missed = missed + 1;
     end
 end
 error = 1.0-correctness
-missed
-correct
 
 

@@ -1,6 +1,6 @@
 %params
 hiddenLayerSize = 10;
-epochs = 17;
+epochs = 10;
 inputsCount = 601;
 inputs = zeros(400, inputsCount);
 vPerfs = zeros(hiddenLayerSize, epochs+1);
@@ -26,7 +26,7 @@ targets = targets.';
 for i = 1:hiddenLayerSize
     for j = 1:5
         net = fitnet(i);
-        net.trainFcn = 'trainscg';
+        net.trainFcn = 'trainbfg';
         %trainlm
         %trainbfg 
         %trainscg
@@ -43,11 +43,11 @@ for i = 1:hiddenLayerSize
     vPerfs(i,:) = vPerfs(i,:)/5.0;
 end
 
-surf(2:8, 1:10, vPerfs(:,2:8))
+surf(4:epochs, 1:10, vPerfs(:,4:epochs))
 %outputs = net(inputs);
 %errors = gsubtract(targets, outputs);
 %performance = perform(net, targets, outputs);
-zlabel('Vperf')
+zlabel('Error BFG')
 xlabel('epochs')
 ylabel('hnn')
 %view(net)
