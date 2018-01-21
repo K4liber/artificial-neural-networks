@@ -1,0 +1,61 @@
+%params
+inputsCount = 598;
+data = zeros(400, inputsCount);
+dataToEncode = zeros(400, 3);
+delimiterIn = '	';
+headerlinesIn = 0;
+dataPath = '/data/';
+hiddenSize = 25;
+
+%{ 
+load data
+for i = 1:inputsCount
+    fileName = fullfile(pwd, strcat(strcat(dataPath, 'data'), num2str(i), '.txt'));
+    input = importdata(fileName, delimiterIn,headerlinesIn);
+    data(:,i) = input(:);
+    strcat('file ', num2str(i), '/', num2str(inputsCount))
+end
+
+autoenc = trainAutoencoder(data,hiddenSize,...
+        'EncoderTransferFunction','satlin',...
+        'DecoderTransferFunction','purelin',...
+        'L2WeightRegularization',0.01,...
+        'SparsityRegularization',4,...
+        'SparsityProportion',0.10);
+
+%}
+
+% data to encode
+for i = inputsCount+1:inputsCount+3
+    fileName = fullfile(pwd, strcat(strcat(dataPath, 'data'), num2str(i), '.txt'));
+    input = importdata(fileName, delimiterIn,headerlinesIn);
+    dataToEncode(:,i-inputsCount) = input(:);
+    strcat('file ', num2str(i-inputsCount), '/', num2str(3))
+end
+
+predictions = predict(autoenc, dataToEncode);
+
+input1 = reshape(dataToEncode(:,1),20,20);
+predict1 = reshape(predictions(:, 2), 20, 20);
+input2 = reshape(dataToEncode(:,1),20,20);
+predict2 = reshape(predictions(:, 2), 20, 20);
+input3 = reshape(dataToEncode(:,1),20,20);
+predict3 = reshape(predictions(:, 2), 20, 20);
+
+malaKaczkaColor = imread('malaKaczka.jpg');
+malaKaczka = rgb2gray(malaKaczkaColor);
+malaKaczkaMatrix = zeros(400, 1);
+malaKaczkaMatrix(:,1) = malaKaczka(:);
+predictKaczka = predict(autoenc, malaKaczkaMatrix);
+predictKaczkaImg = reshape(predictKaczka, 20, 20);
+imshow([input1*255,predict1*255; malaKaczka, predictKaczkaImg*255])
+
+RGBkaczka = imread('kaczka.jpg');
+imageKaczka = im2double(RGBkaczka);
+
+% 2 part
+RGB = imread('baboon.jpg');
+image1 = im2double(RGB);
+
+RGB2 = imread('forest.jpg');
+image2 = im2double(RGB);
